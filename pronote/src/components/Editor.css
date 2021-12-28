@@ -1,0 +1,33 @@
+.container{
+    height: 99vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+}
+
+:is(.input , .output){
+    width:42vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+:is(.input-text,.output-text){
+    background: transparent;
+    height: 95%;
+    width: 95%;
+    outline: none;
+    color: aliceblue;
+    padding:13px;
+    font-size: large;
+    border:solid #464646;
+    border-radius: 7%;
+}
+.output-text{
+    background-color: #464646;
+    box-shadow: 2px 2px 2px 2px gray;
+    overflow-wrap:anywhere;
+}
